@@ -1,8 +1,7 @@
+import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:movie/ui/screens/home/fav.dart';
 import 'package:movie/ui/screens/home/home.dart';
-
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 
 import '../profile/profile.dart';
 import '../search/search.dart';
@@ -16,7 +15,7 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
-    HomeScreen(), // الصفحة الرئيسية
+    homescrean(), // الصفحة الرئيسية
     search(),
     ProfilePage(), // الصفحة الرئيسية
     favorit() // البحث

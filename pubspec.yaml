@@ -12,8 +12,13 @@ environment:
 
 
 dependencies:
+
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any  # أو ضع رقم الإصدار المناسب
+
 
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.0.17
@@ -21,6 +26,7 @@ dependencies:
   provider: ^6.1.2
   carousel_slider: ^5.0.0
   convex_bottom_bar: ^3.2.0
+  animated_toggle: ^0.1.3
 
 dev_dependencies:
   flutter_test:
@@ -32,7 +38,7 @@ dev_dependencies:
 
 flutter:
 
-
+  generate: true
   uses-material-design: true
 
   assets:
